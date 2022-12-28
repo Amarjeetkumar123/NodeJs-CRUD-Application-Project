@@ -22,13 +22,13 @@
           <% if(users != ''){ %>
           <table class="table table-striped text-center my-4">
             <thead>
-              <tr class="table-dark">
-                <th>ID</th>
-                <th>Image</th>
-                <th>Name</th>
-                <th>E-mail</th>
-                <th>Phone</th>
-                <th>Action</th>
+              <tr class="table-dark ">
+                <th class="text-center">ID</th>
+                <th class="text-center">Image</th>
+                <th class="text-center">Name</th>
+                <th class="text-center">E-mail</th>
+                <th class="text-center">Phone</th>
+                <th class="text-center">Action</th>
               </tr>
             </thead>
 
@@ -37,11 +37,7 @@
               <tr class="table-light align-middle">
                 <td><%=index%></td>
                 <td>
-                  <img
-                    src="<%=row.image%>"
-                    width="40"
-                    class="img-thumbnail"
-                  />
+                  <img src="<%=row.image%>" width="50" class="img-thumbnail" />
                 </td>
                 <td><%= row.name %></td>
                 <td><%= row.email %></td>
