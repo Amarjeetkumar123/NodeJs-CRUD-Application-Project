@@ -1,5 +1,7 @@
 # CRUD APP
 
+<hr>
+
 ## Skills Used
 
 ### Backend
