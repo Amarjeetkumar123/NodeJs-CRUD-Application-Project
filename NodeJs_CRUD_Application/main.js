@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const session = require("express-session");
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT;
 
 // Database Connection
 mongoose.set("strictQuery", true);
